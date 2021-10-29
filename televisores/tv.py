@@ -8,6 +8,7 @@ class TV:
         self._precio = 500
         self._estado = estado
         self._volumen = 1
+        self.control = None
     
     def getMarca(self):
         return self._marca
